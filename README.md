@@ -190,7 +190,7 @@ The notebooks keep the early attempts and then a *Corrections and final modifica
 
 ## Team
 
-Group 5 – add names and roll numbers here (notebook tags: **MS23238**, **MS23131**).
+Group 5 – Satyabrata Patra (MS23131) and Sohamita Ghosal (MS23238).
 
 ## Acknowledgements
 
