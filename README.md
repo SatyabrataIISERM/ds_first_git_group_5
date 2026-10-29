@@ -33,8 +33,8 @@ Answering cricket questions with data instead of opinion: exploratory analysis o
 |---|---|---|
 | `Match_Analysis__MS23238_.ipynb` | MS23238 | Cleans the data into a match table (`data/cleaned_matches.csv`) and answers the match-level EDA questions (toss, batting first vs chasing, venues, home advantage, awards, DLS, scoring ranges). |
 | `Ball_by_ball_analysis_MS23131_.ipynb` | MS23131 | Ball-by-ball analysis: phase dynamics, batter–bowler matchups, extras, wickets and boundaries by over, innings totals, batter profiles. |
-| `ML-_FIRST_INNINGS.ipynb` | – | Pre-match winner classification, first-innings score regression, live first-innings projection, venue clustering, SHAP, and the corrected leak-free pipeline. |
-| `ML-2ND_INNINGS.ipynb` | – | Chase win-probability and chase-total models at 6 / 10 / 15 overs, what-if heatmaps, a live predictor and a dashboard. |
+| `ML-_FIRST_INNINGS.ipynb` | MS23238 & MS23131 | Pre-match winner classification, first-innings score regression, live first-innings projection, venue clustering, SHAP, and the corrected leak-free pipeline. |
+| `ML-2ND_INNINGS.ipynb` | MS23238 & MS23131 | Chase win-probability and chase-total models at 6 / 10 / 15 overs, what-if heatmaps, a live predictor and a dashboard. |
 
 Suggested layout (adjust to match the repo):
 
