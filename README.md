@@ -36,13 +36,12 @@ Answering cricket questions with data instead of opinion: exploratory analysis o
 | `ML-_FIRST_INNINGS.ipynb` | MS23238 & MS23131 | Pre-match winner classification, first-innings score regression, live first-innings projection, venue clustering, SHAP, and the corrected leak-free pipeline. |
 | `ML-2ND_INNINGS.ipynb` | MS23238 & MS23131 | Chase win-probability and chase-total models at 6 / 10 / 15 overs, what-if heatmaps, a live predictor and a dashboard. |
 
-Suggested layout (adjust to match the repo):
+Layout:
 
 ```
 ├── README.md
 ├── IPL_Match_Analysis.pptx
 ├── data/                      # cleaned_matches.csv is written here
-├── results/                   # CSV outputs and dashboard.png written by the ML notebooks
 └── notebooks/
     ├── Match_Analysis__MS23238_.ipynb
     ├── Ball_by_ball_analysis_MS23131_.ipynb
@@ -65,7 +64,6 @@ Run the notebooks in this order:
 3. `ML-_FIRST_INNINGS`
 4. `ML-2ND_INNINGS`
 
-**Path note:** a few cells still contain hard-coded Windows paths (for example `C:\Users\...\IPL.csv`). Replace them with the path returned by `kagglehub.dataset_download(...)`, or set `RAW_CSV` in the first-innings notebook.
 
 ---
 
